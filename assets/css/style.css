@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /* .card .db{
     position: relative;
@@ -9,11 +8,15 @@ body{
 .card-body .dp{
     position: absolute;
 } */
-
+header {
+    margin-bottom: 0px;
+    border-bottom: 2px solid lightgrey;
+}
 .card-body-owl{
     position: absolute;
     margin-top: 5rem;
     color: white;
+    margin-left: 1rem
 }
 
 img.card-img-top-owl {
@@ -36,9 +39,7 @@ img.card-img {
 .list-group-item:first-child{
 
 }
-img.card-img-top{
-    width: fit-content;
-}
+
 ul.list-group {
     width: auto;
 }
@@ -70,16 +71,121 @@ ul.list-group {
 .px-3{
    
     border-radius: 5px;
-    background: #00b09b; 
-    background: -webkit-linear-gradient(to right, #00b09b, #96c93d);
-    background: linear-gradient(to right, #00b09b, #96c93d);
+    background-image: linear-gradient(-46deg,#28eb84 0,#292c89 100%)!important;
     padding: 10px 15px;
     color: white;
+    border: none;
     
 }
 button.btn{
-    background: #00b09b; 
-    background: -webkit-linear-gradient(to right, #00b09b, #96c93d);
-    background: linear-gradient(to right, #00b09b, #96c93d);
+    background-image: linear-gradient(-46deg,#28eb84 0,#292c89 100%)!important;
     color: white;
+    padding: 10px 40px;
+    border: none;
+}
+i.fa-solid.fa-magnifying-glass {
+    font-size: 1.5rem;
+}
+.btn-primary{
+    background-image: linear-gradient(-46deg,#28eb84 0,#292c89 100%)!important;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+}
+a.btn-badge0.btn {
+    background-color: rgb(53, 69, 83);
+    color: #ffffff;
+    margin-top: 1rem;
+}
+a.btn-badge1.btn {
+    background-color: rgb(100, 68, 26);
+    color: #ffffff;
+    margin-top: 1rem;
+}
+a.btn-badge2.btn {
+    background-color: rgb(12, 23, 19);
+    color: #ffffff;
+    margin-top: 1rem;
+}
+a.btn-badge3.btn {
+    background-color: rgb(119, 93, 216);
+    color: #ffffff;
+    margin-top: 1rem;
+}
+a.btn-badge4.btn {
+    background-color: rgb(20, 8, 30);
+    color: #ffffff;
+    margin-top: 1rem;
+}
+a.btn-badge5.btn {
+    background-color: rgb(181, 152, 8);
+    color: #ffffff;
+    margin-top: 1rem;
+}
+.btn{
+    padding: 0.1rem 0.5rem;
+}
+.py-2 {
+    padding-top: 3.5rem!important;
+}
+form.card.p-2{
+    background-image: url(https://fvmstatic.s3.amazonaws.com/maps/m/WRLD-EPS-01-0017.png);
+}
+.list-name{
+    margin-top: 3rem;
+    margin-bottom:1.5rem;
+}
+i.fa-solid.fa-chevron-right.p-3 {
+    color: #28eb84;
+}
+.bd{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    width:auto;
+    padding: 0px;
+}
+.bd-1{
+    display: flex;
+    justify-content: space-between;
+}
+.topic-num {
+    align-self: center;
+}
+.top-num{
+    color: rgb(153, 150, 147);
+}
+.card.col-md-5.mb-3.px-0 {
+    margin: 0rem 1.1rem;
+}
+.card-body .blogs{
+    background-color: lightgray;
+}
+.card.px-0 {
+    width: 43%;
+    margin: 0px 26px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+.page-footer{
+    background-color: #f8f9fa;
+}
+.card-text{
+    font-weight: bold;
+    font-size: 1rem;
+
+
+}
+.post-text{
+    margin-top: 10px;
+}
+span.post-head{
+    font-weight: 600;
+}
+.col-md-4 .order-md-2{
+    margin-bottom: 2rem;
+}
+h3{
+    font-weight: 600;
 }
